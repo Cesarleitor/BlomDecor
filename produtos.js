@@ -34,5 +34,63 @@ const produtos = [
         preco: "R$ 130,00",
         imagem: "./img/cavaloP.jpeg",
         categoria: "animais"
-    }
+    },
+    {
+        nome: "Escultura Buda",
+        preco: "R$ 130,00",
+        imagem: "./img/escultura-buda.jpeg",
+        categoria: "animais"
+    },
+
+    {
+        nome: "Escultura Moai G",
+        preco: "R$ 130,00",
+        imagem: "./img/escultura-moaiG.jpeg",
+        categoria: "animais"
+    },
+
+    {
+        nome: "Garrafa Caras G",
+        preco: "R$ 130,00",
+        imagem: "./img/garrafa-caras-G.jpeg",
+        categoria: "animais"
+    },
+
+    {
+        nome: "Garrafa Caras M",
+        preco: "R$ 130,00",
+        imagem: "./img/garrafa-caras-M.jpeg",
+        categoria: "animais"
+    },
+
+    {
+        nome: "Garrafa Caras P",
+        preco: "R$ 130,00",
+        imagem: "./img/garrafa-caras-P.jpeg",
+        categoria: "animais"
+    },
+
+    {
+        nome: "Esultura Mascara Beijo",
+        preco: "R$ 130,00",
+        imagem: "./img/mascaraBeijo.jpeg",
+        categoria: "animais"
+    },
+
+    {
+        nome: "Escultura Mascara Reversa",
+        preco: "R$ 130,00",
+        imagem: "./img/mascara-reversa.jpeg",
+        categoria: "animais"
+    },
+     {
+        nome: "Escultura Mascara Torre M",
+        preco: "R$ 130,00",
+        imagem: "./img/Mascara Torre M.jpeg",
+        categoria: "animais"
+    },
+
+
+
+
 ];
