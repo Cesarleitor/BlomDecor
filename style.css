@@ -52,6 +52,20 @@ header .logo {
   letter-spacing: 20px;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
+/* Esconde menu no mobile por padrão */
+.nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+}
 
 header nav a {
   margin-left: 20px;
@@ -378,4 +392,41 @@ footer {
   .hero p {
     font-size: 1.2rem;
   }
+  /* Responsividade */
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: rgba(253, 242, 223, 1);
+    position: absolute;
+    top: 70px; /* altura aproximada do header */
+    left: 0;
+    padding: 10px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 0 0 10px 10px;
+    z-index: 1001;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .nav-menu a {
+    padding: 10px 20px;
+    border-bottom: 1px solid #c49b63;
+  }
+
+  .nav-menu a:last-child {
+    border-bottom: none;
+  }
+
+  header {
+    position: relative;
+  }
 }
+

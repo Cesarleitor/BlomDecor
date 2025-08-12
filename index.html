@@ -10,16 +10,22 @@
   <body>
     <!-- HEADER -->
     <header>
-      <a href="index.html" class="logo-link">
-        <img class="logo" src="./img/logo.png" alt="Logo Bloom Arte e Decoração" />
-      </a>
-      <h1 class="logo-nome">BLOOM ARTE E DECORAÇÃO</h1>
-      <nav>
-        <a href="index.html" class="ativo">Home</a>
-        <a href="#sobre">Quem Somos</a>
-        <a href="catalogo.html">Catálogo</a>
-        <a href="#contatos">Contato</a>
-      </nav>
+       <a href="index.html" class="logo-link">
+    <img class="logo" src="./img/logo.png" alt="Logo Bloom Arte e Decoração" />
+  </a>
+  <h1 class="logo-nome">BLOOM ARTE E DECORAÇÃO</h1>
+
+  <button class="menu-toggle" aria-label="Abrir menu">
+    &#9776; <!-- ícone hambúrguer -->
+  </button>
+
+  <nav class="nav-menu">
+    <a href="index.html" class="ativo">Home</a>
+    <a href="#sobre">Quem Somos</a>
+    <a href="catalogo.html">Catálogo</a>
+    <a href="#contatos">Contato</a>
+  </nav> 
+     
     </header>
 
     <!-- HOME -->
@@ -117,5 +123,21 @@
         destaqueContainer.appendChild(item);
       });
     </script>
+
+    <script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const navMenu = document.querySelector(".nav-menu");
+
+  menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+
+    // Muda o aria-label para acessibilidade
+    if(navMenu.classList.contains("open")) {
+      menuToggle.setAttribute("aria-label", "Fechar menu");
+    } else {
+      menuToggle.setAttribute("aria-label", "Abrir menu");
+    }
+  });
+</script>
   </body>
 </html>
