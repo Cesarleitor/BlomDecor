@@ -4,7 +4,9 @@
   --vidro: rgba(175, 60, 60, 0.1);
   --dourado: #d4af37;
   --branco: #ffffff;
-  --preto: #111010;
+  --preto: #221c1c;
+  --mais-escuro: #000000;
+
 }
 
 /* RESET */
@@ -17,18 +19,18 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6; /* Melhor leitura */
-  background-color: var(--claro);
+  background-color: var(--mais-escuro);
 }
 
 /* HEADER */
 header {
   position: fixed;
   width: 100%;
-  background: rgba(253, 242, 223, 1);
+  background: var(--branco);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
+  padding: 0 40px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
@@ -46,7 +48,7 @@ header .logo {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  background: linear-gradient(to right, var(--claro), var(--dourado));
+  background: linear-gradient(to right, var(--claro), var(--mais-escuro));
   background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 20px;
@@ -79,7 +81,7 @@ header nav a:hover {
 }
 
 nav a.ativo {
-  color: var(--claro);
+  color: var(--preto);
   font-weight: bold;
 }
 
@@ -91,7 +93,7 @@ nav a.ativo {
 
 /* HERO */
 .hero {
-  background: url("img/banner.jpg") center/cover no-repeat;
+  background: url("img/banner04.png") center/cover no-repeat;
   height: 100vh;
   color: white;
   display: flex;
@@ -446,4 +448,5 @@ footer {
   .campo-form {
     font-size: 16px;
   }
+  
 }
