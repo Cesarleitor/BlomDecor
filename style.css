@@ -423,7 +423,7 @@ footer {
     width: 100%;
     background: rgba(253, 242, 223, 1);
     position: absolute;
-    top: 70px; /* altura aproximada do header */
+    top: 50px; /* altura aproximada do header */
     left: 0;
     padding: 10px 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
