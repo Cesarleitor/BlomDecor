@@ -28,18 +28,7 @@ const produtos = [
         dimencoes: "50(A) x 26(L) x 33(C) Cm ",
         categoria: "animais"
     },
-    {
-        nome: "Bambu Mosso de até 220cm",
-        preco: "R$ 110,00",
-        imagem: "./img/bambu220.jpeg",
-        categoria: "flores"
-    },
-    {
-        nome: "Arranjo com orquideas em vaso com musgo artificial",
-        preco: "R$ 80,00",
-        imagem: "./img/orquidea01.jpeg",
-        categoria: "flores"
-    },
+    
     {
         nome: "Escultura Cavalo P",
         preco: "R$ 690,00",
@@ -174,6 +163,13 @@ const produtos = [
         dimencoes: "40(A) x 35(L) x 80(C) Cm ",
         categoria: "animais"
     },
+    {
+        nome: "Leão Caminhando G",
+        preco: "R$ 3.980,00",
+        imagem: "./img/leaocaminhandoG.jpg",
+        dimencoes: "83(A) x 42(L) x 135(C) Cm ",
+        categoria: "animais"
+    },
      {
         nome: "Jaguar",
         preco: "R$ 2.970,00",
@@ -258,7 +254,7 @@ const produtos = [
      {
         nome: "Pantera Sentada G",
         preco: "R$ 1.590,00",
-        imagem: "./img/pantera-sentadag.jpeg",
+        imagem: "./img/pantera-sentadaG.jpg",
         dimencoes: "90(A) x 44(L) x 44(C) Cm ",
         categoria: "animais"
     },
