@@ -573,7 +573,7 @@ footer {
   .campo-form {
     font-size: 16px;
   }
-  .container-quem-somos,
+  .container-fazemos,
   .container-pecas,
   .container-arranjos {
     flex-direction: column;
@@ -582,7 +582,7 @@ footer {
 
  
 
-  .imagem-quem-somos,
+  .imagem-fazemos,
   .imagem-pecas,
   .imagem-arranjos {
     margin-top: 20px;
