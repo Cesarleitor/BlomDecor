@@ -179,9 +179,6 @@ nav a.ativo {
 }
 
 /* Classe que inverte a ordem dos elementos */
-.container-invertida {
-  flex-direction: row-reverse;
-}
 
 
 /* Texto */
