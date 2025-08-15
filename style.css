@@ -575,15 +575,12 @@ footer {
   }
   .container-quem-somos,
   .container-pecas,
-  .container-invertida,
   .container-arranjos {
     flex-direction: column;
     text-align: center;
   }
 
-  .container-invertida .texto-pecas {
-    text-align: center; /* volta para centralizado no mobile */
-  }
+ 
 
   .imagem-quem-somos,
   .imagem-pecas,
