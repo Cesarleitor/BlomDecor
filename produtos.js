@@ -1,5 +1,34 @@
 const produtos = [
     {
+        nome: "Leão Caminhando G",
+        preco: "R$ 3.980,00",
+        imagem: "./img/leaocaminhandoG.jpg",
+        dimencoes: "83(A) x 42(L) x 135(C) Cm ",
+        categoria: "animais"
+    },
+    {
+        nome: "Pantera Ataque P",
+        preco: "R$ 650,00",
+        imagem: "./img/ataque.jpeg",
+        dimencoes: "16(A) x 13(L) x 71(C) Cm ",
+        categoria: "animais"
+    },
+     {
+        nome: "Pantera Caminhando GG ",
+        preco: "R$ 3.990,00",
+        imagem: "./img/caminhandoGG.jpeg",
+        dimencoes: "88(A) x 36(L) x 175(C) Cm ",
+        categoria: "animais"
+    },
+     
+    {
+        nome: "Pantera Brava GG ",
+        preco: "R$ 3.180,00",
+        imagem: "./img/panterabravaGG.jpeg",
+        dimencoes: "40(A) x 60(L) x 182(C) Cm ",
+        categoria: "animais"
+    },
+    {
         nome: "Touro Walls Stret M ",
         preco: "R$ 590,00",
         imagem: "./img/touroM.jpeg",
@@ -163,13 +192,7 @@ const produtos = [
         dimencoes: "40(A) x 35(L) x 80(C) Cm ",
         categoria: "animais"
     },
-    {
-        nome: "Leão Caminhando G",
-        preco: "R$ 3.980,00",
-        imagem: "./img/leaocaminhandoG.jpg",
-        dimencoes: "83(A) x 42(L) x 135(C) Cm ",
-        categoria: "animais"
-    },
+    
      {
         nome: "Jaguar",
         preco: "R$ 2.970,00",
@@ -192,13 +215,7 @@ const produtos = [
         dimencoes: "22(A) x 17(L) x 101(C) Cm ",
         categoria: "animais"
     },
-     {
-        nome: "Pantera Ataque P",
-        preco: "R$ 650,00",
-        imagem: "./img/ataque.jpeg",
-        dimencoes: "16(A) x 13(L) x 71(C) Cm ",
-        categoria: "animais"
-    },
+     
      {
         nome: "Pantera Ataque G ",
         preco: "R$ 1.690,00",
@@ -214,20 +231,7 @@ const produtos = [
         categoria: "animais"
     },
      
-     {
-        nome: "Pantera Caminhando GG ",
-        preco: "R$ 3.990,00",
-        imagem: "./img/caminhandoGG.jpeg",
-        dimencoes: "88(A) x 36(L) x 175(C) Cm ",
-        categoria: "animais"
-    },
-    {
-        nome: "Pantera Brava GG ",
-        preco: "R$ 3.180,00",
-        imagem: "./img/panterabravaGG.jpeg",
-        dimencoes: "40(A) x 60(L) x 182(C) Cm ",
-        categoria: "animais"
-    },
+   
 
      {
         nome: "Pantera Bebendo Água M",
@@ -483,14 +487,14 @@ const produtos = [
         preco: "R$ 995,00",
         imagem: "./img/aguia.jpeg",
         dimencoes: "73(A) x 32(L) x 30(C) Cm ",
-        categoria: "vasos"
+        categoria: "animais"
     },
       {
         nome: "Águia P",
         preco: "R$ 795,00",
         imagem: "./img/aguia.jpeg",
         dimencoes: "58(A) x 28(L) x 20(C) Cm ",
-        categoria: "vasos"
+        categoria: "animais"
     },
      {
         nome: "Vso Liso Aberto",

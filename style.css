@@ -1,11 +1,11 @@
 /* VARIÁVEIS GLOBAIS */
 :root {
-  --claro: #c19a6b;
+  --claro: #fef2e0;
   --vidro: rgba(175, 60, 60, 0.1);
   --dourado: #d4af37;
   --branco: #ffffff;
   --preto: #221c1c;
-  --mais-escuro: #000000;
+  --mais-escuro: #4c4747;
 
 }
 
@@ -19,7 +19,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6; /* Melhor leitura */
-  background-color: var(--mais-escuro);
+  background-color: var(--branco);
 }
 
 /* HEADER */
@@ -48,7 +48,7 @@ header .logo {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  background: linear-gradient(to right, var(--claro), var(--mais-escuro));
+  background: linear-gradient(to right, var(--dourado), var(--mais-escuro));
   background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 20px;
@@ -93,7 +93,7 @@ nav a.ativo {
 
 /* HERO */
 .hero {
-  background: url("img/banner04.png") center/cover no-repeat;
+  background: url("img/banner1.png") center/cover no-repeat;
   height: 100vh;
   color: white;
   display: flex;
@@ -128,13 +128,111 @@ nav a.ativo {
 .btn:hover {
   background: #a37f4f;
 }
+  
 
-/* SOBRE */
-.sobre {
-  background: #ccd4ac;
-  padding: 60px 20px;
+  .container-quem-somos {
+  display: flex;
+  align-items: center; /* alinha topo do texto e da imagem */
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto 40px auto; /* centraliza na página e dá margem inferior */
+  padding: 40px 20px;
+  border-radius: 15px;
+}
+
+/* Bloco inicial destacado */
+.intro-quem-somos {
+  text-align: center; /* centralizado */
+  font-size: 18px;
+  font-weight: bold;
+  background-color: var(--mais-escuro); /* fundo destacado */
+  color: var(--branco);
+  padding: 20px 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Texto principal e imagem permanecem iguais */
+.texto-quem-somos {
+  color: var(--texto);
   text-align: center;
 }
+
+
+
+
+
+/* SOBRE */
+/* Mantém os containers flex */
+.container-fazemos,
+.container-pecas,
+.container-arranjos {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 1600px;
+  margin: 0 auto 40px auto;
+  padding: 40px 20px;
+  background-color: var(--cinza);
+  border-radius: 15px;
+}
+
+/* Classe que inverte a ordem dos elementos */
+.container-invertida {
+  flex-direction: row-reverse;
+}
+
+
+/* Texto */
+.texto-fazemos,
+.texto-pecas {
+  flex: 1;
+  text-align: left;
+  color: var(--texto);
+}
+
+.texto-fazemos h2,
+.texto-pecas h2,
+.texto-quem-somos h2 {
+  margin-bottom: 15px;
+  font-size: 32px;
+  color: var(--preto);
+  font-weight: bold;
+}
+
+.texto-fazemos p,
+.texto-pecas p,
+.texto-pecas ul {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.texto-pecas ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.texto-pecas ul li::marker {
+  color: var(--dourado);
+}
+
+/* Imagens */
+.imagem-fazemos,
+.imagem-pecas {
+  flex: 1;
+}
+
+.imagem-fazemos img,
+.imagem-pecas img,
+.imagem-arranjos {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  border: 3px solid var(--claro);
+}
+
 
 /* GALERIA */
 .galeria {
@@ -186,10 +284,9 @@ nav a.ativo {
 
 .contatos-titulo {
   font-size: 2.5rem;
-  color: var(--claro);
+  color: var(--mais-escuro);
   font-weight: bold;
   margin: 20px;
-  animation: flutuar 3s ease-in-out infinite;
   border-radius: 0.5rem;
   text-align: center;
 }
@@ -214,7 +311,7 @@ nav a.ativo {
 
 .botao-form {
   color: var(--branco);
-  background: var(--claro);
+  background: var(--mais-escuro);
   padding: 1rem 2rem;
   border: none;
   border-radius: 8px;
@@ -296,7 +393,7 @@ footer {
 }
 
 .catalogo p {
-  color: var(--claro);
+  color: var(--mais-escuro);
   font-weight: bold;
   margin-bottom: 15px;
 }
@@ -313,9 +410,9 @@ footer {
 }
 
 .filtros button {
-  background: white;
-  border: 1px solid var(--claro);
-  color: var(--claro);
+  background: var(--cinza);
+  border: 1px solid var(--vidro);
+  color: var(--mais-escuro);
   padding: 8px 15px;
   margin: 5px;
   cursor: pointer;
@@ -335,6 +432,32 @@ footer {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
+.rodape {
+
+  color: #ece8e8;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.redes-sociais {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.redes-sociais a img {
+  width: 40px;
+  transition: transform 0.3s ease;
+}
+
+.redes-sociais a:hover img {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 15px rgba(241, 241, 243, 0.3);
+}
+
 
 
 
@@ -450,5 +573,21 @@ footer {
   .campo-form {
     font-size: 16px;
   }
-  
+  .container-quem-somos,
+  .container-pecas,
+  .container-invertida,
+  .container-arranjos {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container-invertida .texto-pecas {
+    text-align: center; /* volta para centralizado no mobile */
+  }
+
+  .imagem-quem-somos,
+  .imagem-pecas,
+  .imagem-arranjos {
+    margin-top: 20px;
+  }
 }
