@@ -420,7 +420,8 @@ footer {
 .filtros button:hover,
 .filtros button.ativo {
   background: var(--claro);
-  color: white;
+  color: var(--preto); /* mantém letra preta */
+  font-weight: bold;   /* opcional: dá destaque */
 }
 
 #busca {
