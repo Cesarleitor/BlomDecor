@@ -24,13 +24,14 @@ body {
 
 /* HEADER */
 header {
+  flex-wrap: wrap;
   position: fixed;
   width: 100%;
   background: var(--branco);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 10px 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
@@ -77,7 +78,7 @@ header nav a {
 }
 
 header nav a:hover {
-  color: var(--claro);
+  color: var(--cinza);
 }
 
 nav a.ativo {
