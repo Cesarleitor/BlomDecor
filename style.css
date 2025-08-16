@@ -482,22 +482,17 @@ footer {
 /* RESPONSIVIDADE */
 
 @media (max-width: 768px) {
-  header {
-    flex-wrap: wrap;
-    padding: 10px 20px;
+ header {
+    padding: 5px 15px;  /* menor padding no mobile */
   }
 
-  header .logo {
-    width: 80px;
-    height: auto;
+  .hero {
+    padding-top: 60px;  /* garante que o banner não fique atrás do header */
   }
 
   .logo-nome {
-    font-size: 1.5rem;
-    letter-spacing: 5px;
-    margin: 10px 0;
-    flex-basis: 100%;
-    text-align: center;
+    font-size: 1.2rem;  /* reduz um pouco a logo/nome no mobile */
+    letter-spacing: 3px;
   }
 
   header nav {
