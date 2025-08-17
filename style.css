@@ -27,6 +27,8 @@ body {
 header {
   flex-wrap: wrap;
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   background: var(--branco);
   display: flex;
@@ -95,15 +97,15 @@ nav a.ativo {
 
 /* HERO */
 .hero {
-  background: url("img/banner3.png") center/cover no-repeat;
-  height: 100vh;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  width: 100%;
+  /* Define um espaço no topo igual à altura do header (ajuste conforme necessário) */
   padding-top: 80px;
+  box-sizing: border-box;
+}
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;   /* remove espaços indesejados abaixo da imagem */
 }
 
 .hero h1 {
@@ -335,7 +337,7 @@ footer {
 /* PÁGINA DE CATÁLOGO */
 .topo-pagina {
   padding: 160px 20px 40px;
-  background: #ccd4ac;
+  background: var(--cinza);
   text-align: center;
 }
 
@@ -351,7 +353,7 @@ footer {
 
 .catalogo {
   padding: 40px 20px;
-  background: #ccd4ac;
+  background: var(--mais-escuro);
 }
 
 .catalogo .grid {
@@ -566,6 +568,7 @@ footer {
     box-sizing: border-box;
     background-size: contain;
     background-position: center top;
+    padding-top: 70px;
   }
 
   .hero h2 {
