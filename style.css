@@ -564,6 +564,8 @@ footer {
     /* espaçamento superior para não ficar atrás do header */
     padding: 80px 20px 40px;  /* top, laterais, bottom */
     box-sizing: border-box;
+    background-size: contain;
+    background-position: center top;
   }
 
   .hero h2 {
