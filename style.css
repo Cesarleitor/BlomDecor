@@ -481,21 +481,18 @@ footer {
 }
 
 /* RESPONSIVIDADE */
-
 @media (max-width: 768px) {
- header {
-    padding: 4px 10px;  /* menor padding no mobile */
+  header {
+    padding: 4px 10px;
+    position: relative;
   }
 
-  .hero {
-    padding-top: 80px;  /* garante que o banner não fique atrás do header */
-  }
   .logo {
-    width: 80px;         /* reduz largura da logomarca */
+    width: 80px;
   }
 
   .logo-nome {
-    font-size: 1rem;  /* reduz um pouco a logo/nome no mobile */
+    font-size: 1rem;
     letter-spacing: 2px;
   }
 
@@ -512,27 +509,6 @@ footer {
     font-size: 1rem;
   }
 
-  .hero {
-    height: auto;
-    padding: 40px 20px;
-  }
-
-  .hero img.img-capa {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-  }
-
-  .hero h2 {
-    font-size: 2rem;
-    padding: 20px 0 10px;
-  }
-
-  .hero p {
-    font-size: 1.2rem;
-  }
-  /* Responsividade */
-
   .menu-toggle {
     display: block;
   }
@@ -543,7 +519,7 @@ footer {
     width: 100%;
     background: rgba(253, 242, 223, 1);
     position: absolute;
-    top: 50px; /* altura aproximada do header */
+    top: 50px;
     left: 0;
     padding: 10px 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -564,12 +540,10 @@ footer {
     border-bottom: none;
   }
 
-  header {
-    position: relative;
-  }
   .campo-form {
     font-size: 16px;
   }
+
   .container-fazemos,
   .container-pecas,
   .container-arranjos {
@@ -577,11 +551,27 @@ footer {
     text-align: center;
   }
 
- 
-
   .imagem-fazemos,
   .imagem-pecas,
   .imagem-arranjos {
     margin-top: 20px;
+  }
+
+  /* Ajuste unificado da .hero no mobile */
+  .hero {
+    /* altura mínima para ocupar a tela inteira (sem cortar embaixo) */
+    min-height: 100vh;
+    /* espaçamento superior para não ficar atrás do header */
+    padding: 80px 20px 40px;  /* top, laterais, bottom */
+    box-sizing: border-box;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+    padding: 20px 0 10px;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
   }
 }
