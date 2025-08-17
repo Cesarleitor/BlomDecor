@@ -6,8 +6,8 @@
   --branco: #ffffff;
   --preto: #221c1c;
   --mais-escuro: #4c4747;
-  --cinza: #f5f5f5;    /* nova variável para fundos */
-  --texto: #333333;    /* nova variável para cor de texto */
+  --cinza: #a8a3a3; /* nova variável para fundos */
+  --texto: #333333; /* nova variável para cor de texto */
 }
 
 /* RESET */
@@ -64,14 +64,7 @@ header .logo {
   gap: 20px;
 }
 
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-  color: #333;
-}
+
 
 header nav a {
   margin-left: 20px;
@@ -105,7 +98,7 @@ nav a.ativo {
 .hero-img {
   width: 100%;
   height: auto;
-  display: block;   /* remove espaços indesejados abaixo da imagem */
+  display: block; /* remove espaços indesejados abaixo da imagem */
 }
 
 .hero h1 {
@@ -132,9 +125,8 @@ nav a.ativo {
 .btn:hover {
   background: #a37f4f;
 }
-  
 
-  .container-quem-somos {
+.container-quem-somos {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -153,17 +145,13 @@ nav a.ativo {
   padding: 20px 30px;
   border-radius: 12px;
   margin-bottom: 30px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .texto-quem-somos {
   color: var(--texto);
   text-align: center;
 }
-
-
-
-
 
 /* SOBRE */
 /* Mantém os containers flex */
@@ -181,7 +169,6 @@ nav a.ativo {
 }
 
 /* Classe que inverte a ordem dos elementos */
-
 
 /* Texto */
 .texto-fazemos,
@@ -219,8 +206,7 @@ nav a.ativo {
 
 /* Imagens */
 .imagem-fazemos,
-.imagem-pecas
- {
+.imagem-pecas {
   flex: 1;
 }
 
@@ -229,10 +215,9 @@ nav a.ativo {
 .imagem-vaso-home img {
   max-width: 100%;
   border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
   border: 3px solid var(--claro);
 }
-
 
 /* GALERIA */
 .galeria {
@@ -353,7 +338,7 @@ footer {
 
 .catalogo {
   padding: 40px 20px;
-  background: var(--mais-escuro);
+  background: var(--cinza);
 }
 
 .catalogo .grid {
@@ -424,7 +409,7 @@ footer {
 .filtros button.ativo {
   background: var(--claro);
   color: var(--preto); /* mantém letra preta */
-  font-weight: bold;   /* opcional: dá destaque */
+  font-weight: bold; /* opcional: dá destaque */
 }
 
 #busca {
@@ -435,7 +420,6 @@ footer {
 }
 
 .rodape {
-
   color: #ece8e8;
   text-align: center;
   padding: 20px;
@@ -458,9 +442,6 @@ footer {
   transform: translateY(-4px);
   box-shadow: 0 5px 15px rgba(241, 241, 243, 0.3);
 }
-
-
-
 
 /* ANIMAÇÃO */
 @keyframes fadeIn {
@@ -564,7 +545,7 @@ footer {
     /* altura mínima para ocupar a tela inteira (sem cortar embaixo) */
     min-height: 100vh;
     /* espaçamento superior para não ficar atrás do header */
-    padding: 80px 20px 40px;  /* top, laterais, bottom */
+    padding: 80px 20px 40px; /* top, laterais, bottom */
     box-sizing: border-box;
     background-size: contain;
     background-position: center top;
