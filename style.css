@@ -6,7 +6,8 @@
   --branco: #ffffff;
   --preto: #221c1c;
   --mais-escuro: #4c4747;
-
+  --cinza: #f5f5f5;    /* nova variável para fundos */
+  --texto: #333333;    /* nova variável para cor de texto */
 }
 
 /* RESET */
@@ -94,7 +95,7 @@ nav a.ativo {
 
 /* HERO */
 .hero {
-  background: url("img/banner1.png") center/cover no-repeat;
+  background: url("img/banner3.png") center/cover no-repeat;
   height: 100vh;
   color: white;
   display: flex;
@@ -133,20 +134,19 @@ nav a.ativo {
 
   .container-quem-somos {
   display: flex;
-  align-items: center; /* alinha topo do texto e da imagem */
+  align-items: center;
   gap: 30px;
   max-width: 1100px;
-  margin: 0 auto 40px auto; /* centraliza na página e dá margem inferior */
+  margin: 200px auto 40px auto;
   padding: 40px 20px;
   border-radius: 15px;
 }
 
-/* Bloco inicial destacado */
 .intro-quem-somos {
-  text-align: center; /* centralizado */
+  text-align: center;
   font-size: 18px;
   font-weight: bold;
-  background-color: var(--mais-escuro); /* fundo destacado */
+  background-color: var(--mais-escuro);
   color: var(--branco);
   padding: 20px 30px;
   border-radius: 12px;
@@ -154,7 +154,6 @@ nav a.ativo {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Texto principal e imagem permanecem iguais */
 .texto-quem-somos {
   color: var(--texto);
   text-align: center;
@@ -218,13 +217,14 @@ nav a.ativo {
 
 /* Imagens */
 .imagem-fazemos,
-.imagem-pecas {
+.imagem-pecas
+ {
   flex: 1;
 }
 
 .imagem-fazemos img,
 .imagem-pecas img,
-.imagem-arranjos {
+.imagem-vaso-home img {
   max-width: 100%;
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
@@ -484,16 +484,19 @@ footer {
 
 @media (max-width: 768px) {
  header {
-    padding: 5px 15px;  /* menor padding no mobile */
+    padding: 4px 10px;  /* menor padding no mobile */
   }
 
   .hero {
-    padding-top: 60px;  /* garante que o banner não fique atrás do header */
+    padding-top: 80px;  /* garante que o banner não fique atrás do header */
+  }
+  .logo {
+    width: 80px;         /* reduz largura da logomarca */
   }
 
   .logo-nome {
-    font-size: 1.2rem;  /* reduz um pouco a logo/nome no mobile */
-    letter-spacing: 3px;
+    font-size: 1rem;  /* reduz um pouco a logo/nome no mobile */
+    letter-spacing: 2px;
   }
 
   header nav {
