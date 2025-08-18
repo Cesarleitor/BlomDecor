@@ -564,6 +564,9 @@ footer {
   .hero {
     
     margin-top: var(--header-h, 70px); /* usa a altura real do header */
+    height: 38vh;           /* um pouco mais baixo no mobile */
+    min-height: 220px;
+  
   }
 
   .hero h2 {
@@ -573,5 +576,9 @@ footer {
 
   .hero p {
     font-size: 1.2rem;
+  }
+   .container-quem-somos {
+    margin: 24px auto;      /* sobe mais rápido após o banner */
+    padding: 24px 16px;
   }
 }
