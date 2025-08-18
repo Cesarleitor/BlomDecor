@@ -118,6 +118,7 @@ nav a.ativo {
   object-fit: cover; /* corte elegante */
 }
 
+
 .hero h1 {
   font-size: 4rem;
   animation: fadeIn 2s ease;
@@ -547,7 +548,7 @@ footer {
 
   .container-fazemos,
   .container-pecas,
-  .container-arranjos {
+  .container-materiais {
     flex-direction: column;
     text-align: center;
   }
