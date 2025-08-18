@@ -1,9 +1,9 @@
 const produtos = [
   {
-    nome: "Leão Caminhando G",
-    preco: "R$ 3.980,00",
-    imagem: "./img/leaocaminhandoG.jpg",
-    dimencoes: "83(A) x 42(L) x 135(C) Cm ",
+    nome: "Pantera Brava GG ",
+    preco: "R$ 3.880,00",
+    imagem: "./img/panterabravaGG.jpeg",
+    dimencoes: "40(A) x 60(L) x 182(C) Cm ",
     categoria: "animais",
   },
   {
@@ -42,13 +42,7 @@ const produtos = [
     categoria: "animais",
   },
 
-  {
-    nome: "Pantera Brava GG ",
-    preco: "R$ 3.880,00",
-    imagem: "./img/panterabravaGG.jpeg",
-    dimencoes: "40(A) x 60(L) x 182(C) Cm ",
-    categoria: "animais",
-  },
+  
   {
     nome: "Pantera Estlizada P ",
     preco: "R$ 1.090,00",
