@@ -481,8 +481,16 @@ footer {
 /* RESPONSIVIDADE */
 @media (max-width: 768px) {
   header {
-    padding: 4px 10px;
-    position: relative;
+    padding: 4px 10px; 
+    position: fixed;     /* mantém fixo no mobile também */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  /* para evitar que o conteúdo fique escondido */
+  body {
+    padding-top: 70px;  /* ajuste conforme a altura real do header */
   }
 
   .logo {
@@ -507,9 +515,7 @@ footer {
     font-size: 1rem;
   }
 
-  .menu-toggle {
-    display: block;
-  }
+  
 
   .nav-menu {
     display: none;
