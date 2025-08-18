@@ -1,558 +1,665 @@
 const produtos = [
-    {
-        nome: "Leão Caminhando G",
-        preco: "R$ 3.980,00",
-        imagem: "./img/leaocaminhandoG.jpg",
-        dimencoes: "83(A) x 42(L) x 135(C) Cm ",
-        categoria: "animais"
-    },
-    {
-        nome: "Pantera Ataque P",
-        preco: "R$ 650,00",
-        imagem: "./img/ataque.jpeg",
-        dimencoes: "16(A) x 13(L) x 71(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Pantera Caminhando GG ",
-        preco: "R$ 3.990,00",
-        imagem: "./img/caminhandoGG.jpeg",
-        dimencoes: "88(A) x 36(L) x 175(C) Cm ",
-        categoria: "animais"
-    },
-     
-    {
-        nome: "Pantera Brava GG ",
-        preco: "R$ 3.180,00",
-        imagem: "./img/panterabravaGG.jpeg",
-        dimencoes: "40(A) x 60(L) x 182(C) Cm ",
-        categoria: "animais"
-    },
-    {
-        nome: "Touro Walls Stret M ",
-        preco: "R$ 590,00",
-        imagem: "./img/touroM.jpeg",
-        dimencoes: "46(A) x 24(L) x 26(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Touro Walls Stret G ",
-        preco: "R$ 1.190,00",
-        imagem: "./img/touroG.jpeg",
-        dimencoes: "42(A) x 82(L) x 42(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Touro Walls Stret P ",
-        preco: "R$ 490,00",
-        imagem: "./img/touroP.jpeg",
-        dimencoes: "18(A) x 30(L) x 16(C) Cm ",
-        categoria: "animais"
-    },
-    
-    {
-        nome: "Escultura Gorila P",
-        preco: "R$ 690,00",
-        imagem: "./img/gorilaP.png",
-        dimencoes: "50(A) x 26(L) x 33(C) Cm ",
-        categoria: "animais"
-    },
-    
-    {
-        nome: "Escultura Cavalo P",
-        preco: "R$ 690,00",
-        imagem: "./img/cavaloP.jpeg",
-        dimencoes: "50(A) x 20(L) x 20(C) Cm ",
-        categoria: "animais"
-    },
-    {
-        nome: "Escultura Cavalo M",
-        preco: "R$ 1.190,00",
-        imagem: "./img/cavaloM.jpeg",
-        dimencoes: "74(A) x 21(L) x 21(C) Cm ",
-        categoria: "animais"
-    },
-    {
-        nome: "Escultura Cavalo G",
-        preco: "R$ 2.190,00",
-        imagem: "./img/cavaloG.jpeg",
-        dimencoes: "105(A) x 35(L) x 35(C) Cm ",
-        categoria: "animais"
-    },
-    {
-        nome: "Escultura Buda",
-        preco: "R$ 590,00",
-        imagem: "./img/escultura-buda.jpeg",
-        dimencoes: "52(A) x 34(L) x 20(C) Cm ",
-        categoria: "esculturas"
-    },
+  {
+    nome: "Leão Caminhando G",
+    preco: "R$ 3.980,00",
+    imagem: "./img/leaocaminhandoG.jpg",
+    dimencoes: "83(A) x 42(L) x 135(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Pantera Ataque P",
+    preco: "R$ 550,00",
+    imagem: "./img/ataque.jpeg",
+    dimencoes: "16(A) x 13(L) x 71(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Pantera Caminhando GG ",
+    preco: "R$ 4.190,00",
+    imagem: "./img/caminhandoGG.jpeg",
+    dimencoes: "88(A) x 36(L) x 175(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Leão Caminhando GG ",
+    preco: "R$ 5.580,00",
+    imagem: "./img/leaoCaminhandoGG.png",
+    dimencoes: "110(A)x 60(L)x 195(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Leão Caminhando M ",
+    preco: "R$ 940,00",
+    imagem: "./img/panteraCaminhandoM.png",
+    dimencoes: "39(A)x15(L)x77(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Leão Sentado M",
+    preco: "R$ 3.830,00",
+    imagem: "./img/leaoSentadoM.png",
+    dimencoes: "108(A)x46(L)x64(C) Cm ",
+    categoria: "animais",
+  },
 
-    {
-        nome: "Escultura Moai G",
-        preco: "R$ 498,00",
-        imagem: "./img/escultura-moaiG.jpeg",
-        dimencoes: "56(A) x 30(L) x 24(C) Cm ",
-        categoria: "esculturas"
-    },
-    {
-        nome: "Escultura Moai M",
-        preco: "R$ 420,00",
-        imagem: "./img/moaiM.jpeg",
-        dimencoes: "36(A) x 24(L) x 20(C) Cm ",
-        categoria: "esculturas"
-    },
-    {
-        nome: "Escultura Moai P",
-        preco: "R$ 220,00",
-        imagem: "./img/moaiP.jpeg",
-        dimencoes: "20(A) x 12(L) x 12(C) Cm ",
-        categoria: "esculturas"
-    },
+  {
+    nome: "Pantera Brava GG ",
+    preco: "R$ 3.880,00",
+    imagem: "./img/panterabravaGG.jpeg",
+    dimencoes: "40(A) x 60(L) x 182(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Pantera Estlizada P ",
+    preco: "R$ 1.090,00",
+    imagem: "./img/panteraEstilizadaP.png",
+    dimencoes: "08(A)x46(L)x64(C) Cm",
+    categoria: "animais",
+  },
+  {
+    nome: "Touro Walls Stret M ",
+    preco: "R$ 690,00",
+    imagem: "./img/touroM.jpeg",
+    dimencoes: "46(A) x 24(L) x 26(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Touro Walls Stret G ",
+    preco: "R$ 1.390,00",
+    imagem: "./img/touroG.jpeg",
+    dimencoes: "42(A) x 82(L) x 42(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Touro Walls Stret P ",
+    preco: "R$ 490,00",
+    imagem: "./img/touroP.jpeg",
+    dimencoes: "18(A) x 30(L) x 16(C) Cm ",
+    categoria: "animais",
+  },
 
-    {
-        nome: "Garrafa Caras G",
-        preco: "R$ 249,00",
-        imagem: "./img/garrafa-caras-G.jpeg",
-        dimencoes: "50(A) x 13(L) x 13(C) Cm ",
-        categoria: "garrafas"
-    },
+  {
+    nome: "Escultura Gorila P",
+    preco: "R$ 690,00",
+    imagem: "./img/gorilaP.png",
+    dimencoes: "50(A) x 26(L) x 33(C) Cm ",
+    categoria: "animais",
+  },
 
-    {
-        nome: "Garrafa Caras M",
-        preco: "R$ 239,00",
-        imagem: "./img/garrafa-caras-M.jpeg",
-        dimencoes: "40(A) x 12(L) x 12(C) Cm ",
-        categoria: "garrafas"
-    },
+  {
+    nome: "Escultura Cavalo P",
+    preco: "R$ 690,00",
+    imagem: "./img/cavaloP.jpeg",
+    dimencoes: "50(A) x 20(L) x 20(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Escultura Cavalo M",
+    preco: "R$ 1.190,00",
+    imagem: "./img/cavaloM.jpeg",
+    dimencoes: "74(A) x 21(L) x 21(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Escultura Cavalo G",
+    preco: "R$ 2.190,00",
+    imagem: "./img/cavaloG.jpeg",
+    dimencoes: "105(A) x 35(L) x 35(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Escultura Buda",
+    preco: "R$ 590,00",
+    imagem: "./img/escultura-buda.jpeg",
+    dimencoes: "52(A) x 34(L) x 20(C) Cm ",
+    categoria: "esculturas",
+  },
 
-    {
-        nome: "Garrafa Caras P",
-        preco: "R$ 229,00",
-        imagem: "./img/garrafa-caras-P.jpeg",
-        dimencoes: "30(A) x 14(L) x 14(C) Cm ",
-        categoria: "garrafas"
-    },
+  {
+    nome: "Escultura Moai G",
+    preco: "R$ 498,00",
+    imagem: "./img/escultura-moaiG.jpeg",
+    dimencoes: "56(A) x 30(L) x 24(C) Cm ",
+    categoria: "esculturas",
+  },
+  {
+    nome: "Escultura Moai M",
+    preco: "R$ 420,00",
+    imagem: "./img/moaiM.jpeg",
+    dimencoes: "36(A) x 24(L) x 20(C) Cm ",
+    categoria: "esculturas",
+  },
+  {
+    nome: "Escultura Moai P",
+    preco: "R$ 220,00",
+    imagem: "./img/moaiP.jpeg",
+    dimencoes: "20(A) x 12(L) x 12(C) Cm ",
+    categoria: "esculturas",
+  },
 
-    {
-        nome: "Esultura Mascara Beijo",
-        preco: "R$ 549,00",
-        imagem: "./img/mascaraBeijo.jpeg",
-        dimencoes: "55(A) x 18(L) x 18(C) Cm ",
-        categoria: "esculturas"
-    },
-     {
-        nome: "Esultura Mascara Silêncio",
-        preco: "R$ 549,00",
-        imagem: "./img/silencio.jpeg",
-        dimencoes: "55(A) x 18(L) x 18(C) Cm ",
-        categoria: "esculturas"
-    },
+  {
+    nome: "Garrafa Caras G",
+    preco: "R$ 349,00",
+    imagem: "./img/garrafa-caras-G.jpeg",
+    dimencoes: "50(A) x 13(L) x 13(C) Cm ",
+    categoria: "garrafas",
+  },
 
-   
-     {
-        nome: "Escultura Mascara Torre M",
-        preco: "R$ 259,00",
-        imagem: "./img/Mascara Torre M.jpeg",
-        dimencoes: "45(A) x 13(L) x 13(C) Cm ",
-        categoria: "esculturas"
-    },
-     {
-        nome: "Escultura Mascara Torre P",
-        preco: "R$ 239,00",
-        imagem: "./img/mascaraAP.jpeg",
-        dimencoes: "36(A) x 10(L) x 10(C) Cm ",
-        categoria: "esculturas"
-    },
-     
-     {
-        nome: "Touro Bravo",
-        preco: "R$ 470,00",
-        imagem: "./img/touro_bravoP.jpeg",
-        dimencoes: "28(A) x 16(L) x 37(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Mascara Silêncio P",
-        preco: "R$ 320,00",
-        imagem: "./img/silencioP.jpeg",
-        dimencoes: "35(A) x 11(L) x 11(C) Cm ",
-        categoria: "esculturas"
-    },
-     {
-        nome: "Leão Sentado P",
-        preco: "R$ 1.390,00",
-        imagem: "./img/leao_sentadoP.jpeg",
-        dimencoes: "62(A) x 35(L) x 50(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Leão Deitado",
-        preco: "R$ 1.900,00",
-        imagem: "./img/leaodeitado.jpeg",
-        dimencoes: "40(A) x 35(L) x 80(C) Cm ",
-        categoria: "animais"
-    },
-    
-     {
-        nome: "Jaguar",
-        preco: "R$ 2.970,00",
-        imagem: "./img/jaguar.jpeg",
-        dimencoes: "55(A) x 47(L) x 130(C) Cm ",
-        categoria: "animais"
-    },
-    {
-        nome: "Pantera Ataque PP",
-        preco: "R$ 395,00",
-        imagem: "./img/ataquepp.jpeg",
-        dimencoes: "10(A) x 10(L) x 37(C) Cm ",
-        categoria: "animais"
-    },
-    
-     {
-        nome: "Pantera Ataque M",
-        preco: "R$ 990,00",
-        imagem: "./img/ataque.jpeg",
-        dimencoes: "22(A) x 17(L) x 101(C) Cm ",
-        categoria: "animais"
-    },
-     
-     {
-        nome: "Pantera Ataque G ",
-        preco: "R$ 1.690,00",
-        imagem: "./img/ataque.jpeg",
-        dimencoes: "32(A) x 21(L) x 150(C) Cm ",
-        categoria: "animais"
-    },
-    {
-        nome: "Pantera Ataque GG ",
-        preco: "R$ 3.530,00",
-        imagem: "./img/ataqueGG.jpeg",
-        dimencoes: "55(A) x 40(L) x 205(C) Cm ",
-        categoria: "animais"
-    },
-     
-   
+  {
+    nome: "Garrafa Caras M",
+    preco: "R$ 279,00",
+    imagem: "./img/garrafa-caras-M.jpeg",
+    dimencoes: "40(A) x 12(L) x 12(C) Cm ",
+    categoria: "garrafas",
+  },
 
-     {
-        nome: "Pantera Bebendo Água M",
-        preco: "R$ 1.590,00",
-        imagem: "./img/bebendo-agua.jpeg",
-        dimencoes: "40(A) x 40(L) x 102(C) Cm ",
-        categoria: "animais"
-    },
-    {
-        nome: "Pantera Bebendo Água  G",
-        preco: "R$ 2.280,00",
-        imagem: "./img/bebendoaguag.jpeg",
-        dimencoes: "60(A) x 40(L) x 140(C) Cm ",
-        
-        categoria: "animais"
-    },
-     {
-        nome: "Pantera Sentada P",
-        preco: "R$ 790,00",
-        imagem: "./img/pantera-sentadaP.jpeg",
-        dimencoes: "64(A) x 35(L) x 26(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Pantera Sentada G",
-        preco: "R$ 1.590,00",
-        imagem: "./img/pantera-sentadaG.jpg",
-        dimencoes: "90(A) x 44(L) x 44(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Urso em pé P",
-        preco: "R$ 490,00",
-        imagem: "./img/urso-sentado.jpeg",
-        dimencoes: "46(A) x 24(L) x 10(C) Cm ",
-        categoria: "animais"
-    },
-    {
-        nome: "Urso em pé PP",
-        preco: "R$ 390,00",
-        imagem: "./img/urso-sentado.jpeg",
-        dimencoes: "30(A) x 18(L) x 08(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Urso Panda P",
-        preco: "R$ 149,00",
-        imagem: "./img/urso-panda.jpeg",
-        dimencoes: "13(A) x 08(L) x 10(C) Cm ",
-        categoria: "animais"
-    },
-    {
-        nome: "Urso Panda M",
-        preco: "R$ 320,00",
-        imagem: "./img/urso-panda.jpeg",
-        dimencoes: "26(A) x 23(L) x 21(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Cachorro deitado",
-        preco: "R$ 395,00",
-        imagem: "./img/cachorro-deitado.png",
-        dimencoes: "22(A) x 13(L) x 39(C) Cm ",
-        categoria: "animais"
-    },
-    {
-        nome: "Cachorro Labrador",
-        preco: "R$ 395,00",
-        imagem: "./img/labrador.jpeg",
-        dimencoes: "36(A) x 24(L) x 15(C) Cm ",
-        categoria: "animais"
-    },
-    
-     {
-        nome: "Buldogue P",
-        preco: "R$ 190,00",
-        imagem: "./img/buldogue.jpeg",
-         dimencoes: "14(A) x 13(L) x 15(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Buldogue PP",
-        preco: "R$ 155,00",
-        imagem: "./img/buldogue.jpeg",
-         dimencoes: "10(A) x 09(L) x 11(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Gato PP",
-        preco: "R$ 220,00",
-        imagem: "./img/gatoPP.png",
-        dimencoes: "28(A) x 08(L) x 13(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Leopardo PP",
-        preco: "R$ 370,00",
-        imagem: "./img/leopardo.jpeg",
-         dimencoes: "14(A) x 39(L) x 09(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Pantera Deitada",
-        preco: "R$ 990,00",
-        imagem: "./img/pantera-deitada.jpeg",
-         dimencoes: "59(A) x 21(L) x 28(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Cachorro Galgo G",
-        preco: "R$ 2.190,00",
-        imagem: "./img/galgo.jpeg",
-         dimencoes: "114(A) x 42(L) x 33(C) Cm ",
-        categoria: "animais"
-    },
-    {
-        nome: "Cachorro Galgo M",
-        preco: "R$ 1.290,00",
-        imagem: "./img/galgo.jpeg",
-         dimencoes: "75(A) x 32(L) x 24(C) Cm ",
-        categoria: "animais"
-    },
-    
-     {
-        nome: "Escultura Lisa",
-        preco: "R$ 249,00",
-        imagem: "./img/escultura-lisa.jpeg",
-        dimencoes: "50(A) x 14(L) x 14(C) Cm ",
-        categoria: "esculturas"
-    },
-     {
-        nome: "Escultura Mascara Teatro",
-        preco: "R$ 298,00",
-        imagem: "./img/escultura-teatro.jpeg",
-        dimencoes: "42(A) x 14(L) x 13(C) Cm ",
-        categoria: "esculturas"
-    },
-    {
-        nome: "Escultura Mascara Reversa",
-        preco: "R$ 298,00",
-        imagem: "./img/mascara-reversa.jpeg",
-        dimencoes: "42(A) x 14(L) x 13(C) Cm ",
-        
-        categoria: "esculturas"
-    },
-     {
-        nome: "Escultura Dragão",
-        preco: "R$ 450,00",
-        imagem: "./img/escultura-dragao.jpeg",
-        dimencoes: "30(A) x 26(L) x 17(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Tubarão Parede",
-        preco: "R$ 480,00",
-        imagem: "./img/tubarao.jpeg",
-        dimencoes: "00(A) x 00(L) x 00(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Barco",
-        preco: "R$ 229,00",
-        imagem: "./img/escultura-barco.jpeg",
-        dimencoes: "37(A) x 07(L) x 24(C) Cm ",
-        categoria: "esculturas"
-    },
-     {
-        nome: "Busto Pantera",
-        preco: "R$ 690,00",
-        imagem: "./img/busto-pantera.jpeg",
-        dimencoes: "40(A) x 30(L) x 45(C) Cm ",
-        
-        categoria: "animais"
-    },
-     {
-        nome: "Leão com Base PP",
-        preco: "R$ 320,00",
-        imagem: "./img/leao-com-base.jpeg",
-        dimencoes: "30(A) x 20(L) x 15(C) Cm ",
-        categoria: "animais"
-    },
-       {
-        nome: "Garrafa Vintage G",
-        preco: "R$ 490,00",
-        imagem: "./img/garrafa-flordeliz.jpeg",
-        dimencoes: "80(A) x 12(L) x 12(C) Cm ",
-        categoria: "garrafas"
-    },
-     {
-        nome: "Garrafa Vintage P",
-        preco: "R$ 390,00",
-        imagem: "./img/garrafa-flordeliz.jpeg",
-        dimencoes: "70(A) x 10(L) x 10(C) Cm ",
-        categoria: "garrafas"
-    },
+  {
+    nome: "Garrafa Caras P",
+    preco: "R$ 229,00",
+    imagem: "./img/garrafa-caras-P.jpeg",
+    dimencoes: "30(A) x 14(L) x 14(C) Cm ",
+    categoria: "garrafas",
+  },
 
-       {
-        nome: "Garrafas Listrada G",
-        preco: "R$ 248,00",
-        imagem: "./img/garrafas-listrada.jpeg",
-        dimencoes: "42(A) x 10(L) x 10(C) Cm ",
-        categoria: "garrafas"
-    },
-     {
-        nome: "Garrafas Listrada M",
-        preco: "R$ 228,00",
-        imagem: "./img/garrafas-listrada.jpeg",
-        dimencoes: "36(A) x 09(L) x 09(C) Cm ",
-        categoria: "garrafas"
-    },
+  {
+    nome: "Esultura Mascara Beijo",
+    preco: "R$ 549,00",
+    imagem: "./img/mascaraBeijo.jpeg",
+    dimencoes: "55(A) x 18(L) x 18(C) Cm ",
+    categoria: "esculturas",
+  },
+  {
+    nome: "Esultura Mascara Silêncio",
+    preco: "R$ 549,00",
+    imagem: "./img/silencio.jpeg",
+    dimencoes: "55(A) x 18(L) x 18(C) Cm ",
+    categoria: "esculturas",
+  },
 
-     {
-        nome: "Garrafas Listrada P",
-        preco: "R$ 208,00",
-        imagem: "./img/garrafas-listrada.jpeg",
-        dimencoes: "30(A) x 09(L) x 09(C) Cm ",
-        categoria: "garrafas"
-    },
+  {
+    nome: "Escultura Mascara Torre M",
+    preco: "R$ 398,00",
+    imagem: "./img/Mascara Torre M.jpeg",
+    dimencoes: "45(A) x 13(L) x 13(C) Cm ",
+    categoria: "esculturas",
+  },
+  {
+    nome: "Escultura Mascara Torre P",
+    preco: "R$ 375,00",
+    imagem: "./img/mascaraAP.jpeg",
+    dimencoes: "36(A) x 10(L) x 10(C) Cm ",
+    categoria: "esculturas",
+  },
+  {
+    nome: "Escultura Mascara Torre PP",
+    preco: "R$ 255,00",
+    imagem: "./img/mascaraTorrePP.png",
+    dimencoes: "18(A)x05(L)x05(C) Cm ",
+    categoria: "esculturas",
+  },
+  {
+    nome: "Escultura Kiss",
+    preco: "G= R$ 299,00 <p> P= R$239,00",
+    imagem: "./img/kiss.png",
+    dimencoes: "G= 40(A)x15(L)x09(C) Cm <p>P= 32(A)x13(L)x07(C) cm ",
+    categoria: "esculturas",
+  },
 
+  {
+    nome: "Touro Bravo",
+    preco: "R$ 470,00",
+    imagem: "./img/touro_bravoP.jpeg",
+    dimencoes: "28(A) x 16(L) x 37(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Mascara Silêncio P",
+    preco: "R$ 320,00",
+    imagem: "./img/silencioP.jpeg",
+    dimencoes: "35(A) x 11(L) x 11(C) Cm ",
+    categoria: "esculturas",
+  },
+  {
+    nome: "Leão Sentado P",
+    preco: "R$ 1.390,00",
+    imagem: "./img/leao_sentadoP.jpeg",
+    dimencoes: "62(A) x 35(L) x 50(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Leão Deitado",
+    preco: "R$ 1.900,00",
+    imagem: "./img/leaodeitado.jpeg",
+    dimencoes: "40(A) x 35(L) x 80(C) Cm ",
+    categoria: "animais",
+  },
 
-       {
-        nome: "Garrafa Treliça G",
-        preco: "R$ 490,00",
-        imagem: "./img/garrafa-treliçaGjpeg.jpeg",
-         dimencoes: "75(A) x 13(L) x 13(C) Cm ",
-        categoria: "garrafas"
-    },
-    
-       {
-        nome: "Garrafa Treliça P",
-        preco: "R$ 390,00",
-        imagem: "./img/garrafa-treliçap.jpeg",
-         dimencoes: "66(A) x 13(L) x 13(C) Cm ",
-        categoria: "garrafas"
-    },
+  {
+    nome: "Jaguar",
+    preco: "R$ 2.570,00",
+    imagem: "./img/jaguar.jpeg",
+    dimencoes: "55(A) x 47(L) x 130(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Pantera Ataque PP",
+    preco: "R$ 240,00",
+    imagem: "./img/ataquepp.jpeg",
+    dimencoes: "10(A) x 10(L) x 37(C) Cm ",
+    categoria: "animais",
+  },
 
-       {
-        nome: "Garrafa Quadrada",
-        preco: "R$ 440,00",
-        imagem: "./img/garrafa-retangulo.jpeg",
-         dimencoes: "27(A) x 10(L) x 48(C) Cm ",
-        categoria: "garrafas"
-    },
- {
-        nome: "Garrafa Retângulo",
-        preco: "R$ 395,00",
-        imagem: "./img/garrafa-quadrada.jpeg",
-         dimencoes: "35(A) x 10(L) x 35(C) Cm ",
-        categoria: "garrafas"
-    },
-      {
-        nome: "Águia M",
-        preco: "R$ 995,00",
-        imagem: "./img/aguia.jpeg",
-        dimencoes: "73(A) x 32(L) x 30(C) Cm ",
-        categoria: "animais"
-    },
-      {
-        nome: "Águia P",
-        preco: "R$ 795,00",
-        imagem: "./img/aguia.jpeg",
-        dimencoes: "58(A) x 28(L) x 20(C) Cm ",
-        categoria: "animais"
-    },
-     {
-        nome: "Vso Liso Aberto",
-        preco: "R$ 950,00",
-        imagem: "./img/vaso-flordeliz.jpeg",
-         dimencoes: "85(A) x 47(L) Cm ",
-        categoria: "vasos"
-    },
+  {
+    nome: "Pantera Ataque M",
+    preco: "R$ 990,00",
+    imagem: "./img/ataque.jpeg",
+    dimencoes: "22(A) x 17(L) x 101(C) Cm ",
+    categoria: "animais",
+  },
 
-     {
-        nome: "Vaso Irregular P",
-        preco: "R$ 790,00",
-        imagem: "./img/vaso-irregular.jpeg",
-         dimencoes: "80(A) x 30(L) Cm ",
-        categoria: "vasos"
-    },
-    {
-        nome: "Vaso Irregular G",
-        preco: "R$ 990,00",
-        imagem: "./img/vaso-irregular.jpeg",
-         dimencoes: "100(A) x 40(L) Cm ",
-        categoria: "vasos"
-    },
+  {
+    nome: "Pantera Ataque G ",
+    preco: "R$ 1.790,00",
+    imagem: "./img/ataque.jpeg",
+    dimencoes: "32(A) x 21(L) x 150(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Pantera Ataque GG ",
+    preco: "R$ 3.530,00",
+    imagem: "./img/ataqueGG.jpeg",
+    dimencoes: "55(A) x 40(L) x 205(C) Cm ",
+    categoria: "animais",
+  },
 
-     {
-        nome: "Vaso Liso P",
-        preco: "R$ 698,00",
-        imagem: "./img/vaso-liso.jpeg",
-         dimencoes: "64(A) x 35(L) Cm ",
-        categoria: "vasos"
-    },
-     {
-        nome: "Vaso Liso M",
-        preco: "R$ 830,00",
-        imagem: "./img/vaso-liso.jpeg",
-         dimencoes: "80(A) x 40(L) Cm ",
-        categoria: "vasos"
-    },
-     {
-        nome: "Vaso Liso G",
-        preco: "R$ 990,00",
-        imagem: "./img/vaso-liso.jpeg",
-         dimencoes: "91(A) x 40(L) Cm ",
-        categoria: "vasos"
-    },
-    
-    {
-        nome: "Vaso Bojudo",
-        preco: "R$ 890,00",
-        imagem: "./img/vasoBojudo.jpeg",
-        dimencoes: "61(A) x 45(L) Cm ",
-        categoria: "vasos"
-    },
+  {
+    nome: "Pantera Bebendo Água M",
+    preco: "R$ 1.590,00",
+    imagem: "./img/bebendo-agua.jpeg",
+    dimencoes: "40(A) x 40(L) x 102(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Pantera Bebendo Água  G",
+    preco: "R$ 2.480,00",
+    imagem: "./img/bebendoaguag.jpeg",
+    dimencoes: "60(A) x 40(L) x 140(C) Cm ",
 
+    categoria: "animais",
+  },
+  {
+    nome: "Pantera Sentada P",
+    preco: "R$ 990,00",
+    imagem: "./img/pantera-sentadaP.jpeg",
+    dimencoes: "64(A) x 35(L) x 26(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Pantera Sentada G",
+    preco: "R$ 1.690,00",
+    imagem: "./img/pantera-sentadaG.jpg",
+    dimencoes: "90(A) x 44(L) x 44(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Pantera Sentada Estilizada",
+    preco: "R$ 1.790,00",
+    imagem: "./img/pantera-sentada.estilizada.png",
+    dimencoes: "70(A)x 58(L)x 32(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Urso em pé P",
+    preco: "R$ 490,00",
+    imagem: "./img/urso-sentado.jpeg",
+    dimencoes: "46(A) x 24(L) x 10(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Urso em pé PP",
+    preco: "R$ 390,00",
+    imagem: "./img/urso-sentado.jpeg",
+    dimencoes: "30(A) x 18(L) x 08(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Urso Panda P",
+    preco: "R$ 149,00",
+    imagem: "./img/urso-panda.jpeg",
+    dimencoes: "13(A) x 08(L) x 10(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Urso Panda M",
+    preco: "R$ 320,00",
+    imagem: "./img/urso-panda.jpeg",
+    dimencoes: "26(A) x 23(L) x 21(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Cachorro deitado",
+    preco: "R$ 395,00",
+    imagem: "./img/cachorro-deitado.png",
+    dimencoes: "22(A) x 13(L) x 39(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Cachorro Labrador",
+    preco: "R$ 495,00",
+    imagem: "./img/labrador.jpeg",
+    dimencoes: "18(A)x33(L)x08(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Jaguar Inclinado P",
+    preco: "R$ 398,00",
+    imagem: "./img/jaguarInclinadoP.png",
+    dimencoes: "36(A) x 24(L) x 15(C) Cm ",
+    categoria: "animais",
+  },
 
+  {
+    nome: "Buldogue P",
+    preco: "R$ 190,00",
+    imagem: "./img/buldogue.jpeg",
+    dimencoes: "14(A) x 13(L) x 15(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Buldogue PP",
+    preco: "R$ 155,00",
+    imagem: "./img/buldogue.jpeg",
+    dimencoes: "10(A) x 09(L) x 11(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Gato PP",
+    preco: "R$ 220,00",
+    imagem: "./img/gatoPP.png",
+    dimencoes: "28(A) x 08(L) x 13(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Leopardo PP",
+    preco: "R$ 370,00",
+    imagem: "./img/leopardo.jpeg",
+    dimencoes: "14(A) x 39(L) x 09(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Pantera Deitada",
+    preco: "R$ 990,00",
+    imagem: "./img/pantera-deitada.jpeg",
+    dimencoes: "59(A) x 21(L) x 28(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Leopardo Deitado",
+    preco: "R$ 980,00",
+    imagem: "./img/leopardoDeitado.png",
+    dimencoes: "30(A)x20(L)x78(C) cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Cachorro Galgo G",
+    preco: "R$ 2.190,00",
+    imagem: "./img/galgo.jpeg",
+    dimencoes: "114(A) x 42(L) x 33(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Cachorro Sentado G",
+    preco: "R$ 890,00",
+    imagem: "./img/cachorroG.png",
+    dimencoes: "60(A)x24(L)x38(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Cachorro Sentado M",
+    preco: "R$ 680,00",
+    imagem: "./img/cachorroM.png",
+    dimencoes: "42(A)x16(L)x27(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Cachorro Sentado P",
+    preco: "R$ 390,00",
+    imagem: "./img/cachorroP.png",
+    dimencoes: "25(A)x10(L)x17(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Cachorro Galgo M",
+    preco: "R$ 1.290,00",
+    imagem: "./img/galgo.jpeg",
+    dimencoes: "75(A) x 32(L) x 24(C) Cm ",
+    categoria: "animais",
+  },
 
+  {
+    nome: "Escultura Lisa",
+    preco: "R$ 249,00",
+    imagem: "./img/escultura-lisa.jpeg",
+    dimencoes: "50(A) x 14(L) x 14(C) Cm ",
+    categoria: "esculturas",
+  },
+  {
+    nome: "Escultura Mascara Teatro",
+    preco: "R$ 298,00",
+    imagem: "./img/escultura-teatro.jpeg",
+    dimencoes: "42(A) x 14(L) x 13(C) Cm ",
+    categoria: "esculturas",
+  },
+  {
+    nome: "Escultura Mascara Reversa",
+    preco: "R$ 298,00",
+    imagem: "./img/mascara-reversa.jpeg",
+    dimencoes: "42(A) x 14(L) x 13(C) Cm ",
+    categoria: "esculturas",
+  },
+  {
+    nome: "Escultura Dragão",
+    preco: "R$ 450,00",
+    imagem: "./img/escultura-dragao.jpeg",
+    dimencoes: "30(A) x 26(L) x 17(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Tubarão Parede",
+    preco: "R$ 480,00",
+    imagem: "./img/tubarao.jpeg",
+    dimencoes: "00(A) x 00(L) x 00(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Barco",
+    preco: "R$ 229,00",
+    imagem: "./img/escultura-barco.jpeg",
+    dimencoes: "37(A) x 07(L) x 24(C) Cm ",
+    categoria: "esculturas",
+  },
+  {
+    nome: "Busto Pantera",
+    preco: "R$ 690,00",
+    imagem: "./img/busto-pantera.jpeg",
+    dimencoes: "40(A) x 30(L) x 45(C) Cm ",
 
+    categoria: "animais",
+  },
+  {
+    nome: "Leão com Base PP",
+    preco: "R$ 320,00",
+    imagem: "./img/leao-com-base.jpeg",
+    dimencoes: "30(A) x 20(L) x 15(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Leão PP",
+    preco: "R$ 135,00",
+    imagem: "./img/leaoPP.png",
+    dimencoes: "11(A)x15(L)x05(C) cm ",
+    categoria: "animais",
+  },
+   {
+    nome: "Urso Pedestal",
+    preco: "R$ 190,00",
+    imagem: "./img/ursoPedestal.png",
+    dimencoes: "25(A)x15(L)x13(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Cavalo Raio ",
+    preco: "M= R$ 290,00 P= R$ 240,00",
+    imagem: "./img/cavaloraio.png",
+    dimencoes: "M= 40(A)x08(L)x20(C) Cm <p> P= 30(A)x06(L)x18(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Garrafa Vintage G",
+    preco: "R$ 490,00",
+    imagem: "./img/garrafa-flordeliz.jpeg",
+    dimencoes: "80(A) x 12(L) x 12(C) Cm ",
+    categoria: "garrafas",
+  },
+  {
+    nome: "Garrafa Vintage P",
+    preco: "R$ 390,00",
+    imagem: "./img/garrafa-flordeliz.jpeg",
+    dimencoes: "70(A) x 10(L) x 10(C) Cm ",
+    categoria: "garrafas",
+  },
+  {
+    nome: "Garrafa Folhas G",
+    preco: "R$ 495,00",
+    imagem: "./img/garrafaFolhasG.png",
+    dimencoes: "75(A)x15(L)x15(C) Cm",
+    categoria: "garrafas",
+  },
+  {
+    nome: "Garrafa Folhas M",
+    preco: "R$ 458,00",
+    imagem: "./img/garrafaFolhasM.png",
+    dimencoes: "60(A)x14(L)x14(C) Cm",
+    categoria: "garrafas",
+  },
 
+  {
+    nome: "Garrafas Listrada G",
+    preco: "R$ 248,00",
+    imagem: "./img/garrafas-listrada.jpeg",
+    dimencoes: "42(A) x 10(L) x 10(C) Cm ",
+    categoria: "garrafas",
+  },
+  {
+    nome: "Garrafas Listrada M",
+    preco: "R$ 228,00",
+    imagem: "./img/garrafas-listrada.jpeg",
+    dimencoes: "36(A) x 09(L) x 09(C) Cm ",
+    categoria: "garrafas",
+  },
 
+  {
+    nome: "Garrafas Listrada P",
+    preco: "R$ 208,00",
+    imagem: "./img/garrafas-listrada.jpeg",
+    dimencoes: "30(A) x 09(L) x 09(C) Cm ",
+    categoria: "garrafas",
+  },
 
+  {
+    nome: "Garrafa Treliça G",
+    preco: "R$ 490,00",
+    imagem: "./img/garrafa-treliçaGjpeg.jpeg",
+    dimencoes: "75(A) x 13(L) x 13(C) Cm ",
+    categoria: "garrafas",
+  },
+
+  {
+    nome: "Garrafa Treliça P",
+    preco: "R$ 390,00",
+    imagem: "./img/garrafa-treliçap.jpeg",
+    dimencoes: "66(A) x 13(L) x 13(C) Cm ",
+    categoria: "garrafas",
+  },
+
+  {
+    nome: "Garrafa Quadrada",
+    preco: "R$ 335,00",
+    imagem: "./img/garrafa-retangulo.jpeg",
+    dimencoes: "27(A) x 10(L) x 48(C) Cm ",
+    categoria: "garrafas",
+  },
+  {
+    nome: "Garrafa Retângulo",
+    preco: "R$ 395,00",
+    imagem: "./img/garrafa-quadrada.jpeg",
+    dimencoes: "35(A) x 10(L) x 35(C) Cm ",
+    categoria: "garrafas",
+  },
+  {
+    nome: "Águia M",
+    preco: "R$ 995,00",
+    imagem: "./img/aguia.jpeg",
+    dimencoes: "73(A) x 32(L) x 30(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Águia P",
+    preco: "R$ 795,00",
+    imagem: "./img/aguia.jpeg",
+    dimencoes: "58(A) x 28(L) x 20(C) Cm ",
+    categoria: "animais",
+  },
+  {
+    nome: "Vso Liso Aberto",
+    preco: "R$ 950,00",
+    imagem: "./img/vaso-flordeliz.jpeg",
+    dimencoes: "85(A) x 47(L) Cm ",
+    categoria: "vasos",
+  },
+
+  {
+    nome: "Vaso Irregular P",
+    preco: "R$ 790,00",
+    imagem: "./img/vaso-irregular.jpeg",
+    dimencoes: "80(A) x 30(L) Cm ",
+    categoria: "vasos",
+  },
+  {
+    nome: "Vaso Irregular G",
+    preco: "R$ 990,00",
+    imagem: "./img/vaso-irregular.jpeg",
+    dimencoes: "100(A) x 40(L) Cm ",
+    categoria: "vasos",
+  },
+
+  {
+    nome: "Vaso Liso P",
+    preco: "R$ 698,00",
+    imagem: "./img/vaso-liso.jpeg",
+    dimencoes: "64(A) x 35(L) Cm ",
+    categoria: "vasos",
+  },
+  {
+    nome: "Vaso Liso M",
+    preco: "R$ 830,00",
+    imagem: "./img/vaso-liso.jpeg",
+    dimencoes: "80(A) x 40(L) Cm ",
+    categoria: "vasos",
+  },
+  {
+    nome: "Vaso Liso G",
+    preco: "R$ 990,00",
+    imagem: "./img/vaso-liso.jpeg",
+    dimencoes: "91(A) x 40(L) Cm ",
+    categoria: "vasos",
+  },
+
+  {
+    nome: "Vaso Bojudo",
+    preco: "R$ 890,00",
+    imagem: "./img/vasoBojudo.jpeg",
+    dimencoes: "61(A) x 45(L) Cm ",
+    categoria: "vasos",
+  },
 ];
