@@ -10,20 +10,9 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+  
 
-  <script>
-  (function aplicaOffsetHeader(){
-    function setHeaderH(){
-      var header = document.querySelector('header');
-      if(!header) return;
-      var h = header.getBoundingClientRect().height;
-      document.documentElement.style.setProperty('--header-h', h + 'px');
-    }
-    window.addEventListener('load', setHeaderH);
-    window.addEventListener('resize', setHeaderH);
-    setHeaderH();
-  })();
-</script>
+  
   <body>
     <!-- HEADER -->
     <header>
@@ -31,8 +20,8 @@
       <div class="logo-nome">BLOOM ARTE E DECORAÇÃO</div>
       <nav>
         <a href="index.html">Home</a>
-        <a href="index.html#sobre">Quem Somos</a>
-        <a href="catalogo.html" class="ativo">Catálogo</a>
+        <a href="index.html#sobre" >Quem Somos</a>
+        <a href="catalogo.html">Catálogo</a>
         <a href="index.html#contato">Contato</a>
       </nav>
     </header>
@@ -167,7 +156,7 @@
         permanecem.
       </div>
       <div class="imagem-vaso-home">
-        <img src="img/vasohome.png" alt="Arranjo floral com bambu mosso" />
+        <img src="img/vasohome1.png" alt="Arranjo floral com bambu mosso" />
       </div>
     </section>
 

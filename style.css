@@ -80,6 +80,8 @@ header .logo {
 
 
 
+
+
 header nav a {
   margin-left: 20px;
   text-decoration: none;
@@ -90,11 +92,12 @@ header nav a {
 header nav a:hover {
   color: var(--cinza);
 }
-
-nav a.ativo {
-  color: var(--preto);
+nav a.ativo { 
+  color: var(--cinza);
   font-weight: bold;
 }
+
+
 
 /* CAPA */
 .img-capa {
@@ -136,9 +139,7 @@ nav a.ativo {
   cursor: pointer;
 }
 
-.btn:hover {
-  background: #a37f4f;
-}
+
 
 .container-quem-somos {
   display: flex;
@@ -283,7 +284,7 @@ nav a.ativo {
 }
 
 .contatos-titulo {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--mais-escuro);
   font-weight: bold;
   margin: 20px;
@@ -438,7 +439,6 @@ footer {
   color: #ece8e8;
   text-align: center;
   padding: 20px;
-  border-radius: 5px;
 }
 
 .redes-sociais {
@@ -563,7 +563,9 @@ footer {
   /* Ajuste unificado da .hero no mobile */
   .hero {
     
-    margin-top: var(--header-h, 70px); /* usa a altura real do header */
+    margin-top: var(--header-h, 70px);
+    height: 38vh;           /* um pouco mais baixo no mobile */
+    min-height: 220px;
   }
 
   .hero h2 {
