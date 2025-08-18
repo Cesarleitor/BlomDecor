@@ -563,9 +563,7 @@ footer {
   /* Ajuste unificado da .hero no mobile */
   .hero {
     
-    margin-top: var(--header-h, 70px);
-    height: 38vh;           /* um pouco mais baixo no mobile */
-    min-height: 220px;
+    margin-top: var(--header-h, 70px); /* usa a altura real do header */
   }
 
   .hero h2 {
