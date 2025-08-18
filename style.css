@@ -102,17 +102,17 @@ nav a.ativo {
   align-items: center;
 }
 
-/* HERO */
+/* === AJUSTE DO BANNER E ESPAÇOS === */
 .hero {
-position: relative;
-  padding: 80px 0 0; /* apenas padding-top para afastar do header */
   margin: 0;
-  box-sizing: border-box;
+  padding: 0;
+  margin-top: var(--header-h, 90px); /* respeita a altura do header */
 }
 .hero-img {
+  display: block;     /* remove espaçozinho de img inline */
   width: 100%;
   height: auto;
-  display: block; /* remove espaços indesejados abaixo da imagem */
+  object-fit: cover;  /* corte elegante */
 }
 
 .hero h1 {
@@ -145,7 +145,7 @@ position: relative;
   align-items: center;
   gap: 30px;
   max-width: 1100px;
-  margin: 200px auto 40px auto;
+  margin: 40px auto;
   padding: 40px 20px;
   border-radius: 15px;
 }
@@ -481,7 +481,6 @@ footer {
 /* RESPONSIVIDADE */
 @media (max-width: 768px) {
   header {
-    padding: 4px 10px; 
     position: fixed;     /* mantém fixo no mobile também */
     top: 0;
     left: 0;
@@ -564,7 +563,7 @@ footer {
   /* Ajuste unificado da .hero no mobile */
   .hero {
     
-    padding-top: 70px;
+    margin-top: var(--header-h, 70px); /* usa a altura real do header */
   }
 
   .hero h2 {

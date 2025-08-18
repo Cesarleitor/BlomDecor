@@ -6,6 +6,21 @@
     <title>Catálogo - Sua Empresa</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
+  <script>
+  (function aplicaOffsetHeader(){
+    function setHeaderH(){
+      var header = document.querySelector('header');
+      if(!header) return;
+      var h = header.getBoundingClientRect().height;
+      document.documentElement.style.setProperty('--header-h', h + 'px');
+    }
+    window.addEventListener('load', setHeaderH);
+    window.addEventListener('resize', setHeaderH);
+    setHeaderH();
+  })();
+</script>
+
   <body>
     <!-- HEADER -->
     <header>
