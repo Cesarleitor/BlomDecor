@@ -2,14 +2,14 @@ const produtos = [
   {
     nome: "Pantera Brava Gigante ",
     preco: "R$ 3.999,00",
-    imagem: "./img/bravaGG.jpG",
+    imagem: "./img/panterabravaGG.jpeg",
     dimencoes: "40(A) x 60(L) x 182(C) Cm ",
     categoria: "animais",
   },
   {
     nome: "Pantera Ataque Pequena ",
     preco: "R$ 630,00",
-    imagem: "./img/panteraataqueP2.jpg",
+    imagem: "./img/panteraataqueP.jpg",
     dimencoes: "16(A) x 13(L) x 71(C) Cm ",
     categoria: "animais",
   },
@@ -37,7 +37,7 @@ const produtos = [
   {
     nome: "Leão Sentado Médio",
     preco: "R$ 4.999,00",
-    imagem: "./img/leaosentadoM.jpg",
+    imagem: "./img/leaoSentadoM.png",
     dimencoes: "108(A) x 46(L) x 64(C) Cm ",
     categoria: "animais",
   },
