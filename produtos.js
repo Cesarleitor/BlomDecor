@@ -29,7 +29,7 @@ const produtos = [
   },
   {
     nome: "Leão Caminhando Grande", 
-    preco: "R$ 940,00",
+    preco: "R$ 4.170,00",
     imagem: "./img/leaocaminhandoM.jpg",
     dimencoes: "83(A) x 42(L) x 135(C) Cm ",
     categoria: "animais",
